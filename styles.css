@@ -1,0 +1,269 @@
+@CHARSET "ISO-8859-1";
+
+/* MAIN TEMPLATE */
+body {
+	z-index: 0;
+}
+
+#template_container {
+	width: 1220px;
+}
+
+#template_head {
+	
+}
+
+#template_head p {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #79bbff;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#student_details {
+	
+}
+/* Log in */
+#container {
+	width: 290px;
+	height: 200px;
+	border: 2px solid #0AB3F1;
+	border-radius: 10px;
+}
+#page_data{width:1200px;}
+#container_page_data{ height:700px;width:600px;  }
+#course_select_hierachy{float:right; height:700px;}
+#parent_log_in {
+	padding: 40px 40px 40px 60px;
+	border-radius: 10px;
+	background-color: #0AB3F1;
+	width: 330px;
+	height: 280px;
+	position: absolute;
+	z-index: 100;
+	margin: 0px 0px 0px 30%;
+	box-shadow: rgb(100, 100, 100) 5px 5px;
+}
+
+#input_reg_no {
+	text-transform: uppercase;
+	padding: 10px;
+	width: 240px;
+	height: 30px;
+	margin: 20px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color: #0AB3F1;
+}
+
+#input_email {
+	padding: 10px;
+	width: 240px;
+	height: 30px;
+	margin: 10px 20px 20px 20px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color: #0AB3F1;
+}
+
+#input_keep_session {
+	margin: 0px 10px 0px 0px;
+}
+
+#log_out {
+	display: inline;
+}
+
+#btn_auth {
+	margin: 20px 0px 0px 20%;
+	background-color: #79bbff;
+	height: 45px;
+	border: 2px solid #79bbff;
+	letter-spacing: 1px;
+	font-size: 16;
+	font-weight: none;
+	color: rgb(255, 255, 255);
+	font-family: verdana;
+	border-radius: 15px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #84bbf3;
+	padding: 9px 18px;
+	text-decoration: none;
+	background: -moz-linear-gradient(center top, #79bbff 5%, #378de5 100%);
+	background: -ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr= 
+		     
+	'#79bbff', endColorstr= '#378de5');
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #79bbff),
+		color-stop(100%, #378de5));
+	background-color: #79bbff;
+	color: #ffffff;
+	text-shadow: 1px 1px 0px #528ecc;
+	-webkit-box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+	-moz-box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+	box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+	background: -ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff',
+		endColorstr='#378de5');
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #79bbff),
+		color-stop(100%, #378de5));
+	background-color: #79bbff;
+}
+
+#btn_auth:hover {
+	background: -moz-linear-gradient(center top, #378de5 5%, #79bbff 100%);
+	background: -ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5',
+		endColorstr='#79bbff');
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #378de5),
+		color-stop(100%, #79bbff));
+	background-color: #378de5;
+}
+
+#navigation {
+	padding: 5px; 0 px; 10 px; 2 px;
+	width: 800px;
+	float: left;
+	height: 60px;
+}
+
+#admin_navigation {
+	padding: 5px; 0 px; 10 px; 2 px;
+	float: left;
+	height: 60px;
+	margin:20px 0px 20px 0px;
+}
+
+#btn_classes, #btn_assessments, #btn_courses, #btn_lecturers,#btn_downloads,
+	#btn_notifications, #spinner_scholars, #spinner_courses, #spinner_files,
+	#spinner_assessment {
+	background-color:#FFF;
+	color:#79bbff;
+	width: 140px;
+	height: 60px;
+	
+	height: 60px;
+	font-size: 24px;
+	font-family: cursive;
+	border: 1px solid #79bbff;
+	border-radius: 10px;
+	box-shadow: rgb(166, 166, 166) 3px 3px;
+}
+#btn_assessments{width: 180px;}
+#spinner_scholars, #spinner_courses, #spinner_files,
+	#spinner_assessment optgroup {
+	background-color: #79bbff;
+	color: #FFF;
+	font-family: verdana;
+}
+
+#spinner_scholars, #spinner_courses, #spinner_files,
+	#spinner_assessment option {
+	background-color: #FFF;
+	color: #79bbff;
+	font-family: cursive;
+}
+
+#requested_data {
+	overflow: scroll;
+	height: 350px;
+}
+/* NOTIFICATIONS */
+#notifications {
+	height: 400px;
+	width: 390px;
+	float: right;
+	
+}
+
+#p_notifications {
+	background-color:#FFF;
+	color:#79bbff;
+	margin: 5px 10px 10px 0px;
+	padding: 10px 0px 20px 40px;
+	font-size: 24px;
+	font-family: verdana;
+	border: 1px solid #79bbff;
+	border-radius: 10px;
+	box-shadow: rgb(166, 166, 166) 3px 3px;
+}
+
+#wrapper_notifications {
+	width: 380px;
+	height: 400px;
+	overflow: scroll;
+}
+
+/*Weekdays - > SPInNER*/
+#weekdays {
+	
+}
+
+#selected_day {
+	box-shadow: rgb(100, 100, 100) 2px 2px;
+	border-radius: 10px;
+	border: 1px solid #c5ced3;
+	margin: 10px 0px 15px 10%;
+	font-family: Tahoma;
+	font-size: 24px;
+	padding: 6px 50px 6px 50px;
+	z-index: 20;
+}
+
+#selected_day option {
+	background: #ffffff;
+	color: #c5ced3;
+}
+
+#assessment {
+	box-shadow: rgb(100, 100, 100) 2px 2px;
+	border-radius: 10px;
+	border: 1px solid #c5ced3;
+	margin: 10px 0px 15px 10%;
+	font-family: Tahoma;
+	font-size: 24px;
+	padding: 6px 50px 6px 50px;
+	z-index: 20;
+}
+
+#assessment option {
+	background: #ffffff;
+	color: #c5ced3;
+}
+#campus_spinner, #faculty_spinner, #department_spinner ,#courses_spinner,#spinner_student_adm_yr,#spinner_student_adm_yr_courses{
+	width: 200px;
+	height: 40px;
+	border: 1px solid rgb(121,196,251);
+	box-shadow: rgb(200, 200, 200) 5px 5px;
+	font-family: Tahoma;
+	margin: 10px 0px 0px 0px;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+}
+
+#campus_spinner, #faculty_spinner, #department_spinner ,#courses_spinner ,#spinner_student_adm_yr,#spinner_student_adm_yr_courses option{
+	color: #555;
+	background: #FFF;
+	font-family: Tahoma;
+	padding: 5px 10px 5px 10px;
+}
+#course_select_hierachy{
+	
+	margin:50px 50px 50px 0px;
+}
+#commit_result{
+	border:2px solid #ccff93;
+	border-radius:10px;
+	padding:10px;
+	box-shadow:rgb(230,230,230) 5px 5px;
+}
+table tr td select{ width: 300px; height: 40px;border: 1px solid #222222;box-shadow: rgb(200, 200, 200) 5px 5px;font-family: Tahoma;margin: 10px 0px 10px 0px; border-radius: 10px;}
+table tr td select option{ width:200px; color: #555;background: #FFF;font-family: Tahoma;padding: 5px 10px 5px 10px;}
+table tr td input{height:25px; width:200px; color:#222; background:#FFFFFF; padding:0px 5px 0px 5px; border:1px solid #777; border-radius:3px; margin:10px 0px 10px 0px;}
+table tr td button{margin:10px 0px 10px 0px;height:30px; color:#999999; background:#FFFFFF; padding:0px 5px 0px 5px;border:1px solid #777; border-radius:8px; box-shadow:rgb(200,200,200) 5px 5px;}
